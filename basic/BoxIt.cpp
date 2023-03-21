@@ -23,6 +23,7 @@ using namespace std;
 //Overload operator << as specified
 //ostream& operator<<(ostream& out, Box& B)
  class Box{
+    //private method
     private:
     int l = 0;
     int b = 0;

@@ -76,6 +76,8 @@ using namespace std;
             return false; 
     }
 };
+
+// read more about ostream
 ostream& operator<<(ostream& out, Box B)
 {
     int l=B.getLength();

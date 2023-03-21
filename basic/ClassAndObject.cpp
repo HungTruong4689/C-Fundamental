@@ -32,6 +32,7 @@ int main()
 {
     int n; // number of students
     cin >> n;
+    // create the class
     Student *s = new Student[n]; // an array of n students
     for(int i = 0; i < n; i++)
     {

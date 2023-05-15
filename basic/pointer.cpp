@@ -7,6 +7,7 @@ void update(int *a,int *b) {
     *a = *a + *b;
     *b = temp - *b;
 
+    //setup the pointer
     if(*b < 0)
  {
         *b = -(*b);

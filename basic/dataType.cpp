@@ -10,6 +10,7 @@ int main() {
     char c;
     float d;
     double e;
+    //input data type
     cin >>a>>b>>c>>d>>e;
     cout<<a<<endl;
     cout<<b<<endl;

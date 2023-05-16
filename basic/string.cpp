@@ -9,6 +9,8 @@ int main() {
     cout<<a.size()<<" "<<b.size()<<endl;
     string c = a+b;
     cout<<c<<endl;
+
+    //get the size of a strinb
     char temp = a[0];
     a[0] = b[0];
     b[0] = temp;

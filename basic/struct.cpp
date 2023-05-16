@@ -8,6 +8,8 @@ using namespace std;
 /*
     add code for struct here.
 */
+
+//the different between struct and class
 struct Student{
     int age;
     string first_name;
